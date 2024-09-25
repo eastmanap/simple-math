@@ -1,0 +1,43 @@
+# Apollos Eastman
+# 9/25/2024
+# Simple calculation
+# practice 2
+length = float(input('Enter the length of a room in feet:'))
+width = float(input('Enter the width of a room in feet:'))
+
+area = length * width
+
+print (f'The area of the room is {area} square feet.')
+
+# Practice 3
+
+# Part 1
+text = 'My name is {0} and I am {1} years old. My favorite color is {2}.'
+
+name = input('Enter your name:')
+age = int(input('Enter your age:'))
+fav_color = input('Enter your favorite color:')
+
+text = text.format(name, age, fav_color)
+
+print (text)
+
+# Part 2
+
+TAX_RATE = 1.06
+
+price = float(input('Enter the price of an item:'))
+
+total = price * TAX_RATE
+
+print(f'Without tax your item costs ${price}, with tax it costs ${total}.')
+
+# Part 3
+message = 'Your friend\'s name is {0} and they go to {1}.'
+
+friend_name = input('Enter a friend\'s name:')
+friend_school = input('Enter the school your friend goes to:')
+
+message = message.format(friend_name, friend_school)
+
+print(message)
